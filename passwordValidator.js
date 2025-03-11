@@ -4,8 +4,8 @@ let checkValidate = false;
 function validateUpperCase(enteredPassword) {
     return /[A-Z]/.test(enteredPassword);
 }
-function validateNumber(enteredPassowrd) {
-    return /(\d+)/.test(enteredPassowrd);
+function validateNumber(enteredPassword) {
+    return /(\d+)/.test(enteredPassword);
 }
 do {
     let userPassword = userInput.question("Please enter your passsword: ");
